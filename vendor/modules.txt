@@ -4,8 +4,6 @@ github.com/BurntSushi/toml
 github.com/CloudyKit/fastprinter
 # github.com/CloudyKit/jet/v3 v3.0.0
 github.com/CloudyKit/jet/v3
-# github.com/Joker/jade v1.0.1-0.20190614124447-d475f43051e7
-github.com/Joker/jade
 # github.com/Shopify/goreferrer v0.0.0-20181106222321-ec9c9a553398
 github.com/Shopify/goreferrer
 # github.com/aymerick/raymond v2.0.3-0.20180322193309-b565731e1464+incompatible
@@ -18,16 +16,10 @@ github.com/eknkc/amber
 github.com/eknkc/amber/parser
 # github.com/fatih/structs v1.1.0
 github.com/fatih/structs
-# github.com/flosch/pongo2 v0.0.0-20190707114632-bbf5a6c351f4
-github.com/flosch/pongo2
-# github.com/gorilla/schema v1.1.0
-github.com/gorilla/schema
+# github.com/go-sql-driver/mysql v1.6.0
+github.com/go-sql-driver/mysql
 # github.com/iris-contrib/blackfriday v2.0.0+incompatible
 github.com/iris-contrib/blackfriday
-# github.com/iris-contrib/formBinder v5.0.0+incompatible
-github.com/iris-contrib/formBinder
-# github.com/iris-contrib/go.uuid v2.0.0+incompatible
-github.com/iris-contrib/go.uuid
 # github.com/iris-contrib/jade v1.1.3
 github.com/iris-contrib/jade
 # github.com/iris-contrib/middleware/cors v0.0.0-20191219204441-78279b78a367
@@ -36,42 +28,34 @@ github.com/iris-contrib/middleware/cors
 github.com/iris-contrib/pongo2
 # github.com/iris-contrib/schema v0.0.1
 github.com/iris-contrib/schema
-# github.com/jinzhu/gorm v1.9.12
-github.com/jinzhu/gorm
-github.com/jinzhu/gorm/dialects/postgres
+# github.com/jackc/chunkreader/v2 v2.0.1
+github.com/jackc/chunkreader/v2
+# github.com/jackc/pgconn v1.8.1
+github.com/jackc/pgconn
+github.com/jackc/pgconn/internal/ctxwatch
+github.com/jackc/pgconn/stmtcache
+# github.com/jackc/pgio v1.0.0
+github.com/jackc/pgio
+# github.com/jackc/pgpassfile v1.0.0
+github.com/jackc/pgpassfile
+# github.com/jackc/pgproto3/v2 v2.0.6
+github.com/jackc/pgproto3/v2
+# github.com/jackc/pgservicefile v0.0.0-20200714003250-2b9c44734f2b
+github.com/jackc/pgservicefile
+# github.com/jackc/pgtype v1.7.0
+github.com/jackc/pgtype
+# github.com/jackc/pgx/v4 v4.11.0
+github.com/jackc/pgx/v4
+github.com/jackc/pgx/v4/internal/sanitize
+github.com/jackc/pgx/v4/stdlib
 # github.com/jinzhu/inflection v1.0.0
 github.com/jinzhu/inflection
+# github.com/jinzhu/now v1.1.2
+github.com/jinzhu/now
 # github.com/json-iterator/go v1.1.9
 github.com/json-iterator/go
-# github.com/juju/errors v0.0.0-20190930114154-d42613fe1ab9
-github.com/juju/errors
 # github.com/kataras/golog v0.0.10
 github.com/kataras/golog
-# github.com/kataras/iris v11.1.1+incompatible
-github.com/kataras/iris
-github.com/kataras/iris/cache
-github.com/kataras/iris/cache/cfg
-github.com/kataras/iris/cache/client
-github.com/kataras/iris/cache/client/rule
-github.com/kataras/iris/cache/entry
-github.com/kataras/iris/cache/ruleset
-github.com/kataras/iris/cache/uri
-github.com/kataras/iris/context
-github.com/kataras/iris/core/errors
-github.com/kataras/iris/core/handlerconv
-github.com/kataras/iris/core/host
-github.com/kataras/iris/core/memstore
-github.com/kataras/iris/core/netutil
-github.com/kataras/iris/core/router
-github.com/kataras/iris/macro
-github.com/kataras/iris/macro/handler
-github.com/kataras/iris/macro/interpreter/ast
-github.com/kataras/iris/macro/interpreter/lexer
-github.com/kataras/iris/macro/interpreter/parser
-github.com/kataras/iris/macro/interpreter/token
-github.com/kataras/iris/middleware/logger
-github.com/kataras/iris/middleware/recover
-github.com/kataras/iris/view
 # github.com/kataras/iris/v12 v12.1.8
 github.com/kataras/iris/v12
 github.com/kataras/iris/v12/cache
@@ -106,18 +90,13 @@ github.com/kataras/sitemap
 # github.com/klauspost/compress v1.10.1
 github.com/klauspost/compress/flate
 github.com/klauspost/compress/gzip
-# github.com/konsorten/go-windows-terminal-sequences v1.0.1
+# github.com/konsorten/go-windows-terminal-sequences v1.0.2
 github.com/konsorten/go-windows-terminal-sequences
 # github.com/lestrrat-go/file-rotatelogs v2.3.0+incompatible
 github.com/lestrrat-go/file-rotatelogs
 github.com/lestrrat-go/file-rotatelogs/internal/option
 # github.com/lestrrat-go/strftime v1.0.1
 github.com/lestrrat-go/strftime
-# github.com/lib/pq v1.1.1
-github.com/lib/pq
-github.com/lib/pq/hstore
-github.com/lib/pq/oid
-github.com/lib/pq/scram
 # github.com/microcosm-cc/bluemonday v1.0.2
 github.com/microcosm-cc/bluemonday
 # github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
@@ -136,25 +115,32 @@ github.com/schollz/closestmatch
 github.com/shurcooL/sanitized_anchor_name
 # github.com/sirupsen/logrus v1.4.2
 github.com/sirupsen/logrus
-# golang.org/x/crypto v0.0.0-20200221231518-2aa609cf4a9d
+# golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2
 golang.org/x/crypto/acme
 golang.org/x/crypto/acme/autocert
-# golang.org/x/net v0.0.0-20200222125558-5a598a2470a0
+golang.org/x/crypto/pbkdf2
+# golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
 golang.org/x/net/html
 golang.org/x/net/html/atom
 golang.org/x/net/idna
 golang.org/x/net/publicsuffix
-# golang.org/x/sys v0.0.0-20200223170610-d5e6a3e2c0ae
+# golang.org/x/sys v0.0.0-20201119102817-f84b799fce68
+golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
-# golang.org/x/text v0.3.2
+# golang.org/x/text v0.3.3
+golang.org/x/text/cases
+golang.org/x/text/internal
 golang.org/x/text/internal/language
 golang.org/x/text/internal/language/compact
 golang.org/x/text/internal/tag
 golang.org/x/text/language
+golang.org/x/text/runes
 golang.org/x/text/secure/bidirule
+golang.org/x/text/secure/precis
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
+golang.org/x/text/width
 # gopkg.in/ini.v1 v1.52.0
 gopkg.in/ini.v1
 # gopkg.in/resty.v1 v1.12.0
@@ -163,3 +149,15 @@ gopkg.in/resty.v1
 gopkg.in/yaml.v2
 # gopkg.in/yaml.v3 v3.0.0-20200121175148-a6ecf24a6d71
 gopkg.in/yaml.v3
+# gorm.io/driver/mysql v1.1.1
+gorm.io/driver/mysql
+# gorm.io/driver/postgres v1.1.0
+gorm.io/driver/postgres
+# gorm.io/gorm v1.21.9
+gorm.io/gorm
+gorm.io/gorm/callbacks
+gorm.io/gorm/clause
+gorm.io/gorm/logger
+gorm.io/gorm/migrator
+gorm.io/gorm/schema
+gorm.io/gorm/utils
